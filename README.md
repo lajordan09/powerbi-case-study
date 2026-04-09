@@ -34,7 +34,7 @@ This made the analysis difficult to interpret and unreliable.
 The issue was caused by a combination of:
 
 * Row-level data being used instead of aggregated data
-* Inconsistent ZIP code formatting (e.g., ZIP+extra values)
+* Inconsistent ZIP code formatting (ZIP+extra values)
 * Power BI grouping data incorrectly due to data structure
 
 ---
@@ -90,6 +90,14 @@ The updated visualization:
 * index.html (case study page)
 * before.png / after.png (visual comparison)
 * Data cleaning and transformation steps
+
+---
+
+This project builds on a prior SQL analysis where the dataset was extracted, cleaned, and explored:
+
+👉 https://github.com/lajordan09/shelby-county-home-sales-analysis-
+
+The Power BI dashboard extends that work by transforming the data into a visual, decision-support tool.
 
 ---
 
