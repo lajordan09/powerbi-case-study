@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Case Study | Power BI</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-top: 20px;
+    }
+
+    .highlight {
+      background: #eef6ff;
+      padding: 15px;
+      border-left: 4px solid #3b82f6;
+      border-radius: 6px;
+      margin-top: 15px;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #6b7280;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <h1>Improving Data Visualization Accuracy in Power BI</h1>
+    <p>Real Estate Market Analysis Case Study</p>
+
+    <!-- Overview -->
+    <div class="card">
+      <h2>Overview</h2>
+      <p>
+        This project analyzes residential real estate data to understand the relationship between pricing and days on market.
+        During development, a visualization issue surfaced that required investigation, debugging, and restructuring of the data model.
+      </p>
+    </div>
+
+    <!-- Problem -->
+    <div class="card">
+      <h2>The Problem</h2>
+      <p>
+        A scatter plot intended to show pricing vs. days on market displayed incorrectly. Data points were clustered and did not reflect expected market behavior.
+      </p>
+
+      <div class="highlight">
+        The visualization was not reliable for decision-making due to incorrect data representation.
+      </div>
+    </div>
+
+    <!-- Root Cause -->
+    <div class="card">
+      <h2>Root Cause</h2>
+      <p>
+        The issue was caused by Power BI using row-level data instead of aggregated data.
+      </p>
+      <p>
+        This resulted in multiple data points per ZIP code and distorted averages.
+      </p>
+    </div>
+
+    <!-- Solution -->
+    <div class="card">
+      <h2>Solution</h2>
+      <p>
+        Created a summarized table grouped by ZIP code to ensure accurate aggregation.
+      </p>
+
+      <ul>
+        <li>Average List Price</li>
+        <li>Average Days on Market</li>
+        <li>Total Transactions</li>
+      </ul>
+
+      <p>
+        Rebuilt the scatter plot using the aggregated dataset to ensure one data point per ZIP code.
+      </p>
+    </div>
+
+    <!-- Outcome -->
+    <div class="card">
+      <h2>Outcome</h2>
+      <p>
+        The updated visualization clearly shows how pricing impacts time on market across different areas.
+      </p>
+      <p>
+        The chart is now accurate, readable, and useful for real estate decision-making.
+      </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="card">
+      <h2>Skills Demonstrated</h2>
+      <ul>
+        <li>Data modeling and aggregation</li>
+        <li>Power BI visualization troubleshooting</li>
+        <li>Root cause analysis</li>
+        <li>Business-focused data storytelling</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>LaQuita Jordan | Data & Real Estate Analysis</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
