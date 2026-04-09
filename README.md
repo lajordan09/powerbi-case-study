@@ -1,4 +1,5 @@
-# Power BI Case Study
+# Power BI Case Study 
+### From Raw Data to Market Insights in Residential Real Estate
 
 # Shelby County Home Sales Analysis (Power BI)
 
@@ -13,7 +14,7 @@ A key focus of this project was identifying and resolving a data visualization i
 ## Live Case Study
 
 View the full project:
-👉 https://lajordan09.github.io/powerbi-case-study/
+👉🏾 https://lajordan09.github.io/powerbi-case-study/
 
 ---
 
@@ -95,7 +96,7 @@ The updated visualization:
 
 This project builds on a prior SQL analysis where the dataset was extracted, cleaned, and explored:
 
-👉 https://github.com/lajordan09/shelby-county-home-sales-analysis-
+👉🏾 https://github.com/lajordan09/shelby-county-home-sales-analysis-
 
 The Power BI dashboard extends that work by transforming the data into a visual, decision-support tool.
 
