@@ -1,6 +1,7 @@
 # Power BI Case Study 
 ### From Raw Data to Market Insights in Residential Real Estate
 
+---
 # Shelby County Home Sales Analysis (Power BI)
 
 ## Overview
