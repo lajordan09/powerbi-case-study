@@ -105,6 +105,8 @@ The Power BI dashboard extends that work by transforming the data into a visual,
 
 ## Next Steps
 
+* Create Workflow for Report Type
+* Add query to workflow to clean Zip field
 * Add time-based trends (monthly/quarterly analysis)
 * Expand dataset with additional variables
 * Build a multi-page dashboard
